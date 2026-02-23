@@ -20,3 +20,26 @@ Cricket, particularly the Indian Premier League (IPL), is a game of uncertaintie
 - **Data Manipulation**: Pandas, NumPy
 - **Model Serialization**: Pickle
 
+## ⚙️ Local Setup & Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/harshitnub077/IPL-Win-Predictor.git
+   cd IPL-Win-Predictor
+   ```
+
+2. **Create a virtual environment (optional but recommended):**
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows use: .venv\Scriptsctivate
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the app locally:**
+   ```bash
+   streamlit run app.py
+   ```
