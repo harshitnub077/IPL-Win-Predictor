@@ -9,3 +9,8 @@ A machine learning web application that predicts the win probability of an IPL c
 ## 🌟 Overview
 Cricket, particularly the Indian Premier League (IPL), is a game of uncertainties. Often, a single over can tilt the balance of the match. This project utilizes historical IPL data to build a predictive model that estimates the probability of the chasing team winning the match, given the current match scenario.
 
+## 🚀 Features
+- **Real-time Predictions**: Calculates the probability of either team winning based on current match stats.
+- **Dynamic Inputs**: Dropdowns for Batting Team, Bowling Team, Host City, and inputs for Target, Current Score, Overs Completed, and Wickets Out.
+- **Interactive UI**: Clean, easy-to-use interface powered by Streamlit.
+
