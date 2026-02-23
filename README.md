@@ -14,3 +14,9 @@ Cricket, particularly the Indian Premier League (IPL), is a game of uncertaintie
 - **Dynamic Inputs**: Dropdowns for Batting Team, Bowling Team, Host City, and inputs for Target, Current Score, Overs Completed, and Wickets Out.
 - **Interactive UI**: Clean, easy-to-use interface powered by Streamlit.
 
+## 🛠️ Tech Stack
+- **Frontend & App Framework**: Streamlit
+- **Machine Learning**: Scikit-Learn (Logistic Regression Pipeline)
+- **Data Manipulation**: Pandas, NumPy
+- **Model Serialization**: Pickle
+
