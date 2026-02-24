@@ -17,7 +17,8 @@ cities = ['Hyderabad', 'Bangalore', 'Mumbai', 'Indore', 'Kolkata', 'Delhi',
        'Bengaluru']
 
 pipe = pickle.load(open('pipe.pkl','rb'))
-st.title('IPL Win Predictor')
+st.title('IPL Win Predictor 🏏')
+st.markdown("Predict the probability of an IPL team winning based on current match situations.")
 
 col1, col2 = st.columns(2)
 
@@ -57,5 +58,5 @@ if st.button('Predict Probability'):
     result = pipe.predict_proba(input_df)
     loss = result[0][0]
     win = result[0][1]
-    st.header(batting_team + "- " + str(round(win*100)) + "%")
-    st.header(bowling_team + "- " + str(round(loss*100)) + "%")
+    st.header(batting_team + " - " + str(round(win*100)) + "%")
+    st.header(bowling_team + " - " + str(round(loss*100)) + "%")
